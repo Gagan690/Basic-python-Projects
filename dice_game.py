@@ -3,7 +3,7 @@ def dice_game():
 
     user = int(input("Enter the Guess Number : "))
     if user <= 6:
-        return 0 
+        print("Valid Choice") 
     else:
         print("Invaild Input")
 
